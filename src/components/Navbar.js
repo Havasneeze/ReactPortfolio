@@ -73,7 +73,7 @@ const Navbar = () => {
                 <AppBar position="static" style={{ background: "#222" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider('right', true)}>
-                            <ArrowBack style={{ color: "tomato" }} />
+                            <ArrowBack style={{ color: "yellow" }} />
                         </IconButton>
                         <Typography variant="h5" style={{ color: "tan" }}>
                             Portfolio
