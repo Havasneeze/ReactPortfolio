@@ -14,7 +14,7 @@ const Header = () => {
             </Grid>
 
             <Typography className={classes.title} variant="h4">
-                <Typed className={classes.title} strings={["Funny Face"]} typeSpeed={40} />
+                <Typed className={classes.title} strings={["Rainier Burgos"]} typeSpeed={40} />
             </Typography>
             <br />
             <Typography className={classes.subtitle} variant="h5">
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
         color: 'yellow'
     },
     subtitle: {
-        color: 'red',
+        color: 'white',
         marginBottom: '3rem'
 
     },

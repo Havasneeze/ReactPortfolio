@@ -78,7 +78,7 @@ const Navbar = () => {
                         <Typography variant="h5" style={{ color: "tan" }}>
                             Portfolio
             </Typography>
-                        <RightMenuSlide anchor='right'
+                        <RightMenuSlide anchor='left'
                             open={state.right}
                             onClose={toggleSlider('right', false)}
                         >
@@ -96,7 +96,7 @@ const Navbar = () => {
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
         width: 250,
-        background: '#511',
+        background: '#222',
         height: "100%"
     },
     avatar: {
@@ -106,7 +106,7 @@ const useStyles = makeStyles(theme => ({
         height: theme.spacing(15)
     },
     listItem: {
-        color: 'tan'
+        color: 'white'
     }
 }));
 
