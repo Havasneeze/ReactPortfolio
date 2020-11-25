@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import avatar from "./emoji1.png";
+import avatar from "./emoji1.png";  //place picture here to change avatar
 import Typed from 'react-typed';
 
 const Header = () => {
@@ -14,11 +14,12 @@ const Header = () => {
             </Grid>
 
             <Typography className={classes.title} variant="h4">
-                <Typed className={classes.title} strings={["Rainier Burgos"]} typeSpeed={40} />
+                <Typed className={classes.title} strings={["Your Name here"]} typeSpeed={40} />
             </Typography>
             <br />
             <Typography className={classes.subtitle} variant="h5">
-                <Typed strings={["Web Design", "Web Development", "MERN Stack"]} typeSpeed={40}
+                <Typed strings={["Subtitle", "goes", "here"]} typeSpeed={40}
+                // <Typed strings={["Web Design", "Web Development", "MERN Stack"]} typeSpeed={40}
                     backspeed={60}
                     loop />
             </Typography>
@@ -47,10 +48,10 @@ const useStyles = makeStyles(theme => ({
     },
     typedContainer: {
         position: 'absolute',
-        top: '50%',
+        top: '45%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        width: '100vw',
+        // width: '100vw',
         textAlign: "center",
         zIndex: '1'
     }

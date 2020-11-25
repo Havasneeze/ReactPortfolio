@@ -1,18 +1,13 @@
 
 body {
-  background: url(./components/hero2.jpg) no-repeat center center fixed;
+  background: url(./components/images/hero3.jpg) no-repeat top center fixed;
+  background-size: auto;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
   background: cover;
 
 }
-
-
-
-
-
-
 
 
 

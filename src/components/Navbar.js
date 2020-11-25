@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import RightMenuSlide from '@material-ui/core/Drawer';
 import {
@@ -13,15 +14,18 @@ import avatar from "./emoji1.png";
 const menuItems = [
     {
         ListIcon: <Home />,
-        listText: "Home"
+        listText: "Home",
+        listPath: "/"
     },
     {
         ListIcon: <AssignmentInd />,
-        listText: "Resume"
+        listText: "Resume",
+        listPath: "/Resume"
     },
     {
         ListIcon: <Apps />,
-        listText: "Portfolio"
+        listText: "Portfolio",
+        listPath: "/Portfolio"
     },
     {
         ListIcon: <ContactMail />,
@@ -55,7 +59,7 @@ const Navbar = () => {
 
             <List>
                 {menuItems.map((lsItem, key) => (
-                    <ListItem button key={key}>
+                    <ListItem button key={key} component={Link} to={lsItem.listPath}>
                         <ListItemIcon className={classes.listItem}>{lsItem.ListIcon}</ListItemIcon>
                         <ListItemText className={classes.listItem} primary={lsItem.listText} />
                     </ListItem>
@@ -70,12 +74,12 @@ const Navbar = () => {
         <React.Fragment>
 
             <Box component="nav">
-                <AppBar position="static" style={{ background: "#222" }}>
+                <AppBar position="static" style={{ background: "#303F9F" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider('right', true)}>
                             <ArrowBack style={{ color: "yellow" }} />
                         </IconButton>
-                        <Typography variant="h5" style={{ color: "tan" }}>
+                        <Typography variant="h5" style={{ color: "white" }}>
                             Portfolio
             </Typography>
                         <RightMenuSlide anchor='left'
@@ -95,8 +99,8 @@ const Navbar = () => {
 //CSS STYLES
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
-        width: 250,
-        background: '#222',
+        width: 230,
+        background: '#303F9F',
         height: "100%"
     },
     avatar: {
