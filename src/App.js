@@ -1,22 +1,20 @@
 import React from "react";
 import { Route } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Home from './components/index';
+import './App.css';
+import Home from './components/';
 import Resume from './components/Resume';
 import Portfolio from "./components/Portfolio";
-import './App.css';
 
 
 function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-    <Route exact path="/" component={Home} />
-    <Route exact path="/" component={Resume} />
-    <Route exact path="/" component={Portfolio} />
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/Resume" component={Resume} />
+      <Route exact path="/Portfolio" component={Portfolio} />
     </React.Fragment>
-
-
 
   );
 }

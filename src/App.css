@@ -6,13 +6,14 @@ body {
   -moz-background: cover;
   -o-background: cover;
   background: cover;
+  
 
 }
 
 
 
 
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -49,4 +50,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-} */
+}

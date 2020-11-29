@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import RightMenuSlide from '@material-ui/core/Drawer';
 import {
@@ -29,7 +29,8 @@ const menuItems = [
     },
     {
         ListIcon: <ContactMail />,
-        listText: "Contacts"
+        listText: "Contacts",
+        listPath: "/Contacts"
     },
 
 ]
@@ -60,14 +61,14 @@ const Navbar = () => {
             <List>
                 {menuItems.map((lsItem, key) => (
                     <ListItem button key={key} component={Link} to={lsItem.listPath}>
-                        <ListItemIcon className={classes.listItem}>{lsItem.ListIcon}</ListItemIcon>
+                        <ListItemIcon className={classes.listItem}>{lsItem.listIcon}</ListItemIcon>
                         <ListItemText className={classes.listItem} primary={lsItem.listText} />
                     </ListItem>
                 ))}
             </List>
 
         </Box>
-    )
+    );
 
 
     return (

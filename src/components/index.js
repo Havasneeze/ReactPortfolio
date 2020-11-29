@@ -7,7 +7,8 @@ import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
     particlesCanva: {
-        position: 'absolute'
+        position: 'absolute',
+        opacity: "0.4"
     }
 })
 
@@ -58,8 +59,8 @@ const Home = () => {
                         },
                         modes: {
                             bubble: {
-                                distance: 250,
-                                duration: 2,
+                                distance: 100,
+                                duration: 9,
                                 size: 0,
                                 opacity: 0
                             },
