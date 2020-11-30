@@ -1,7 +1,7 @@
 
 body {
-  background: url(./components/images/hero3.jpg) no-repeat top center fixed;
-  background-size: auto;
+  background: url(./components/images/hero3.jpg) no-repeat center fixed;
+  background-size: cover;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;

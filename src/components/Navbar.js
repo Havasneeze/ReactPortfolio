@@ -29,8 +29,8 @@ const menuItems = [
     },
     {
         ListIcon: <ContactMail />,
-        listText: "Contacts",
-        listPath: "/Contacts"
+        listText: "Contact",
+        listPath: "/Contact"
     },
 
 ]
@@ -75,7 +75,7 @@ const Navbar = () => {
         <React.Fragment>
 
             <Box component="nav">
-                <AppBar position="static" style={{ background: "#303F9F" }}>
+                <AppBar position="static" style={{ background: "#060A0F" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider('right', true)}>
                             <ArrowBack style={{ color: "yellow" }} />
@@ -101,7 +101,7 @@ const Navbar = () => {
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
         width: 230,
-        background: '#303F9F',
+        background: '#120654',
         height: "100%"
     },
     avatar: {

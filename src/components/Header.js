@@ -43,8 +43,8 @@ const useStyles = makeStyles(theme => ({
     avatar: {
         display: 'block',
         margin: '0.5rem auto',
-        width: theme.spacing(20),
-        height: theme.spacing(20)
+        width: theme.spacing(30),
+        height: theme.spacing(30)
     },
     typedContainer: {
         position: 'absolute',

@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/';
 import Resume from './components/Resume';
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route exact path="/Resume" component={Resume} />
       <Route exact path="/Portfolio" component={Portfolio} />
+      <Route exact path="/Contact" component={Contact} />
     </React.Fragment>
 
   );

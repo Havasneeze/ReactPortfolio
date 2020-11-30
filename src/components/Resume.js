@@ -23,11 +23,11 @@ const Resume = () => {
             <Navbar />
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.title}>
-                    Sup 
+                    Sup?! 
                 </Typography>
                 <Box component="div">
-                    <Typography variant="h2" align="center">
-                        again
+                    <Typography variant="h2" align="center" style={{color: 'white'}}>
+                        Resume Section still in work.  Be Patient Por favor.  
                     </Typography>
 
                 </Box>
