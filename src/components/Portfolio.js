@@ -27,7 +27,7 @@ const useStyles = makeStyles({
     cardContainer: {
         maxWidth: 345,
         margin: '3rem',
-        margin: '5rem auto'
+        margin: '2rem auto'
     }
 
 })
@@ -70,6 +70,7 @@ const Portfolio = () => {
                             </CardActionArea>
                         </Card>
                     </Grid>
+
                     {/* Project 2 */}
                     <Grid item xs={12} sm={8} md={6}>
                         <Card className={classes.cardContainer}>
