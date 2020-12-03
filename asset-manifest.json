@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Havasneeze/ReactPortfolio.git/static/css/main.fa2ba6e8.chunk.css",
+    "main.js": "/Havasneeze/ReactPortfolio.git/static/js/main.e99c656d.chunk.js",
+    "main.js.map": "/Havasneeze/ReactPortfolio.git/static/js/main.e99c656d.chunk.js.map",
+    "runtime-main.js": "/Havasneeze/ReactPortfolio.git/static/js/runtime-main.2b5d7f31.js",
+    "runtime-main.js.map": "/Havasneeze/ReactPortfolio.git/static/js/runtime-main.2b5d7f31.js.map",
+    "static/js/2.d199b49d.chunk.js": "/Havasneeze/ReactPortfolio.git/static/js/2.d199b49d.chunk.js",
+    "static/js/2.d199b49d.chunk.js.map": "/Havasneeze/ReactPortfolio.git/static/js/2.d199b49d.chunk.js.map",
+    "static/js/3.6b5c1fa7.chunk.js": "/Havasneeze/ReactPortfolio.git/static/js/3.6b5c1fa7.chunk.js",
+    "static/js/3.6b5c1fa7.chunk.js.map": "/Havasneeze/ReactPortfolio.git/static/js/3.6b5c1fa7.chunk.js.map",
+    "index.html": "/Havasneeze/ReactPortfolio.git/index.html",
+    "static/css/main.fa2ba6e8.chunk.css.map": "/Havasneeze/ReactPortfolio.git/static/css/main.fa2ba6e8.chunk.css.map",
+    "static/js/2.d199b49d.chunk.js.LICENSE.txt": "/Havasneeze/ReactPortfolio.git/static/js/2.d199b49d.chunk.js.LICENSE.txt",
+    "static/media/emoji1.600d9e15.png": "/Havasneeze/ReactPortfolio.git/static/media/emoji1.600d9e15.png",
+    "static/media/App.css": "/Havasneeze/ReactPortfolio.git/static/media/hero3.026b6637.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b5d7f31.js",
+    "static/js/2.d199b49d.chunk.js",
+    "static/css/main.fa2ba6e8.chunk.css",
+    "static/js/main.e99c656d.chunk.js"
+  ]
+}
